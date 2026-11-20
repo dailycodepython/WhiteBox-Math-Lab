@@ -1,6 +1,6 @@
 # WhiteBox-Math-Lab
 Physics-informed data analysis without black boxes. Exploring Random Matrix Theory, Spectral Graph Theory, Hodge Decomposition, Koopman Operators, and Information Geometry.
-# WhiteBox-Math-Lab
+
 
 > **Philosophy:** *Math over brute compute.* Exploring transparent, physics-informed, and geometric methods for complex data analysis — strictly without black-box neural networks or gradient boosting.
 
