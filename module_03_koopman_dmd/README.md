@@ -51,9 +51,4 @@ This module is structured into three sequential analytical blocks:
 
 ---
 
-## 🛠 Dependencies
 
-To run the experimental blocks in this module:
-```bash
-pip install numpy pandas scipy yfinance matplotlib
-```
