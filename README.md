@@ -26,7 +26,6 @@ Every module in this lab follows a strict **white-box pipeline**:
  Spectral Theory of Dynamical Systems, Dynamic Mode Decomposition | Linearizing nonlinear time-series evolution into pure oscillating and decaying physical modes. | *Planned* |
 
 | **04** | **[Information Geometry](./module_04_information_geometry)** | Riemannian Statistical Manifolds, Fisher Information Metric, Bregman Divergences | Detecting regime shifts and phase transitions via geodesic distances on probability spaces. | **Completed** |
- | Riemannian Statistical Manifolds, Fisher Information Metric, Bregman Divergences | Detecting regime shifts and phase transitions via geodesic distances on probability spaces. | *Planned* |
 | **05** | **Tensor Networks (MPS)** | Matrix Product States / Tensor Train Decompositions | Capturing high-order nonlinear feature interactions on tabular data using quantum many-body formalism. | *Planned* |
 | **06** | **Conformal Prediction** | Exchangeability, Non-Conformity Quantiles | Wrapping geometric models with distribution-free, mathematically guaranteed uncertainty bounds. | *Planned* |
 
