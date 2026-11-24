@@ -43,7 +43,7 @@ We wrap a white-box realized volatility predictor across **45 S&P 500 equities**
 * **Calm Regime Compression:** During low-volatility stretches ($8\text{--}14\%$ annualized), the normalized ACI band tightens dynamically around realized volatility, avoiding overly conservative static buffers.
 * **Shock Expansion:** When abrupt market shocks drive realized 5-day volatility past $35\%$, online $\alpha_t$ feedback rapidly widens the upper uncertainty bound to absorb tail risk.
 
-![Adaptive Conformal Volatility Bands](<img width="1419" height="504" alt="image" src="https://github.com/user-attachments/assets/accd6551-2e39-4a99-8ea5-73061e952a30" />)
+![Adaptive Conformal Volatility Bands]<img width="1419" height="504" alt="image" src="https://github.com/user-attachments/assets/accd6551-2e39-4a99-8ea5-73061e952a30" />
 
 
 ---
