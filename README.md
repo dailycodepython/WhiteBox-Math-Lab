@@ -24,7 +24,7 @@ Every module in this lab follows a strict **white-box pipeline**:
 | **02** | **[Spectral Graphs & Hodge Theory](./module_02_spectral_hodge)** | Graph Laplacians ($L_0, L_1$), Discrete Exterior Calculus (DEC), Helmholtz–Hodge Decomposition | Decomposing directed network flows into gradient hierarchies (leaders vs. followers), local curls, and harmonic cycles. | **Completed** |
 | **03** | **[Koopman Operator & DMD](./module_03_koopman_dmd)** | Spectral Theory of Dynamical Systems, Dynamic Mode Decomposition | Linearizing nonlinear time-series evolution into pure oscillating and decaying physical modes. | **Completed** |
 | **04** | **[Information Geometry](./module_04_information_geometry)** | Riemannian Statistical Manifolds, Fisher Information Metric, Bregman Divergences | Detecting regime shifts and phase transitions via geodesic distances on probability spaces. | **Completed** |
-| **05** | **Tensor Networks (MPS)** | Matrix Product States / Tensor Train Decompositions | Capturing high-order nonlinear feature interactions on tabular data using quantum many-body formalism. | *Planned* |
+| **05** | **Tensor Networks (MPS / TT)** | [`05_tensor_networks/`](./05_tensor_networks) | TT-SVD, TT-Cross & Von Neumann Entanglement Entropy | ✅ Completed |
 | **06** | **Conformal Prediction** | Exchangeability, Non-Conformity Quantiles | Wrapping geometric models with distribution-free, mathematically guaranteed uncertainty bounds. | *Planned* |
 
 
