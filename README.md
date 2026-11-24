@@ -25,7 +25,7 @@ Every module in this lab follows a strict **white-box pipeline**:
 | **03** | **[Koopman Operator & DMD](./module_03_koopman_dmd)** | Spectral Theory of Dynamical Systems, Dynamic Mode Decomposition | Linearizing nonlinear time-series evolution into pure oscillating and decaying physical modes. | **Completed** |
 | **04** | **[Information Geometry](./module_04_information_geometry)** | Riemannian Statistical Manifolds, Fisher Information Metric, Bregman Divergences | Detecting regime shifts and phase transitions via geodesic distances on probability spaces. | **Completed** |
 |**05** | **[Tensor Networks (MPS / TT)](./05_tensor_networks)** | Matrix Product States, TT-SVD, TT-Cross, Von Neumann Entropy | Capturing high-order nonlinear interactions and mapping cross-sector risk transmission without the curse of dimensionality. | **Completed** |
-| **06** | [**Conformal Prediction](./06_conformal_prediction)** | Exchangeability, Non-Conformity Quantiles, Adaptive Conformal Inference (ACI) | Wrapping geometric models with distribution-free, mathematically guaranteed uncertainty bounds. | **Completed** |
+| **06** | **[Conformal Prediction](./06_conformal_prediction)** | Exchangeability, Non-Conformity Quantiles, Adaptive Conformal Inference (ACI) | Wrapping geometric models with distribution-free, mathematically guaranteed uncertainty bounds. | **Completed** |
 
 ---
 
