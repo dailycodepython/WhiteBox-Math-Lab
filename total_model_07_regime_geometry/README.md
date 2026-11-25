@@ -66,3 +66,29 @@ A genuine exit from a crisis regime unfolds as a **two-step structural sequence*
 * **Regime Separation:**
   * Mean $v_{\text{Fisher}}$: `0.430` (Calm) $\rightarrow$ `0.637` (High-Vol)
   * Mean $S_{\text{vN}}$: `0.652` (Calm) $\rightarrow$ `0.543` (High-Vol)
+
+## 5. References & Theoretical Foundations
+
+The **WhiteBox-Math-Lab (Module 07)** pipeline synthesizes foundational results across six distinct areas of statistical physics, differential topology, and distribution-free statistics into a single unified risk engine:
+
+### Random Matrix Theory & Systemic Absorption (Module 01)
+* **Laloux, L., Cizeau, P., Bouchaud, J.-P., & Potters, M. (1999).** *Noise Dressing of Financial Correlation Matrices.* Physical Review Letters, 83(7), 1467–1470. *(Marchenko–Pastur bulk denoising of empirical equity correlations).*
+* **Kritzman, M., Li, Y., Page, S., & Rigobon, R. (2011).** *Principal Components as a Measure of Systemic Risk.* The Journal of Portfolio Management, 37(4), 112–126. *(Introduction of the Absorption Ratio as a leading indicator of market fragility).*
+
+### Combinatorial Hodge Theory & Financial Flows (Module 02)
+* **Jiang, X., Lim, L.-H., Yao, Y., & Ye, Y. (2011).** *Statistical Ranking and Combinatorial Hodge Theory.* Mathematical Programming, 127(1), 203–244. *(Helmholtz–Hodge decomposition on simplicial complexes into gradient hierarchies and cyclic curls).*
+* **Kichikawa, Y., Iyetomi, H., Iino, T., & Inoue, H. (2019).** *Community Structure Based on Circular Flow in a Large-Scale Transaction Network.* Applied Network Science, 4(1), 92. *(Separating directional leadership from rotational capital churn in financial networks).*
+
+### Information Geometry on the SPD Manifold (Module 03)
+* **Barbaresco, F. (2012).** *Information Geometry of Covariance Matrix: Cartan–Siegel Homogeneous Bounded Domains.* Matrix Information Geometry, Springer, 199–218. *(Geodesic distances and Riemannian velocities on spaces of symmetric positive-definite matrices).*
+* **Bouchard, F., et al. (2023).** *The Fisher–Rao Geometry of CES Distributions.* arXiv:2310.01032. *(Riemannian framework for tracking structural deformations in heavy-tailed financial covariance matrices).*
+
+### Koopman Operator & Delay-Coordinate DMD (Module 04)
+* **Mann, J., & Kutz, J. N. (2016).** *Dynamic Mode Decomposition for Financial Trading Strategies.* Quantitative Finance, 16(11), 1643–1655. *(Hankel-DMD operator lifting for extracting coherent dynamical modes from nonstationary equity time series).*
+
+### Tensor Networks & Von Neumann Market Entropy (Module 05)
+* **Oseledets, I. V. (2011).** *Tensor-Train Decomposition.* SIAM Journal on Scientific Computing, 33(5), 2295–2317. *(TT-SVD compression for high-order interaction tensors).*
+* **Chakraborty, A., & Easwaran, S. (2021).** *Von Neumann Entropy of Financial Correlation Matrices as an Indicator of Market Crises.* Physica A: Statistical Mechanics and its Applications. *(Quantum-inspired density matrix entropy $S_{\text{vN}}$ capturing rank-1 synchronization during market panics).*
+
+### Adaptive Conformal Inference under Distribution Shift (Module 06)
+* **Gibbs, I., & Candès, E. (2021).** *Adaptive Conformal Inference Under Distribution Shift.* Advances in Neural Information Processing Systems (NeurIPS), 34, 1660–1672. *(Online $\alpha_t$ quantile recalibration for non-exchangeable time series).*
