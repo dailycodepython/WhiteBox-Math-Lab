@@ -9,13 +9,17 @@
 Point predictions from geometric, spectral, or tensor models degrade sharply when markets transition from prolonged low-volatility regimes into sudden shock states. Classical parametric intervals ($\hat{y}_t \pm z_{1-\alpha/2}\hat{\sigma}$) rely on asymptotic normality and fail catastrophically under fat-tailed jumps and non-stationarity.
 
 ### Split Conformal Prediction (Finite-Sample Guarantee)
+
 Given a calibration set $\{(X_i, Y_i)\}_{i=1}^n$ and any white-box predictor $\hat{f}$, we define the **nonconformity score** $s_i = |Y_i - \hat{f}(X_i)|$. Under exchangeability, the empirical quantile with finite-sample correction:
 
 $$\hat{q}_{1-\alpha} = \text{Quantile}\left(\{s_i\}_{i=1}^n,\; \frac{\lceil (n+1)(1-\alpha) \rceil}{n}\right)$$
 
-guarantees marginal coverage 
+guarantees marginal coverage:
 
-$\mathbb{P}\big(Y_{n+1} \in [\hat{f}(X_{n+1}) - \hat{q}_{1-\alpha},\; \hat{f}(X_{n+1}) + \hat{q}_{1-\alpha}]\big) \ge 1 - \alpha$ for *any* underlying distribution.
+$$\mathbb{P}\Big(Y_{n+1} \in [\hat{f}(X_{n+1}) - \hat{q}_{1-\alpha},\; \hat{f}(X_{n+1}) + \hat{q}_{1-\alpha}]\Big) \ge 1 - \alpha$$
+
+for *any* underlying distribution.
+
 
 ### Adaptive Conformal Inference — ACI (Gibbs & Candès, 2021)
 When exchangeability breaks during structural regime shifts, static quantiles lag behind reality. **ACI** updates the effective miscoverage level $\alpha_t$ online at every step based on whether the realized outcome breached the interval ($\text{err}_t = \mathbb{I}\{Y_t \notin \hat{C}_t(X_t)\}$):
