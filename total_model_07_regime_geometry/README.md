@@ -22,7 +22,7 @@ Instead of relying on black-box neural networks or fragile Gaussian assumptions,
    * Dynamically scales prediction intervals using geodesic velocity and systemic absorption shifts (Δ AR), achieving nearly **2x higher tail coverage** during high-volatility shocks (`>25%` annualized vol) compared to parametric Gaussian baselines.
 
 ---
-<img width="1473" height="699" alt="image" src="https://github.com/user-attachments/assets/9f88bf28-aad6-4d1f-830a-b5e05835dab0" />
+<img width="1505" height="700" alt="image" src="https://github.com/user-attachments/assets/903a94f9-629c-4d31-8b03-6862676ba756" />
 
 ## 2. Diagnostic Guide: Interpreting Market Regimes
 
@@ -54,16 +54,12 @@ A genuine exit from a crisis regime unfolds as a **two-step structural sequence*
 
 ---
 
-## 4. Quickstart & Validation
+## 4. Empirical Validation (S&P 500, N = 45)
 
 <img width="1000" height="706" alt="image" src="https://github.com/user-attachments/assets/1d712516-6e9f-4f0c-b967-bfdaae3530b2" />
 
-<img width="1505" height="700" alt="image" src="https://github.com/user-attachments/assets/903a94f9-629c-4d31-8b03-6862676ba756" />
 
 
-
-
-### Empirical Benchmark Summary (S&P 500, $N=45$, Out-of-Sample)
 * **Nominal Target Coverage:** `90.0%` ($\alpha = 0.10$)
 * **Overall Coverage:** `88.9%` (Unified White-Box) vs. `85.5%` (Parametric Gaussian)
 * **High-Volatility Stress Regime (`>25%` Ann. Vol):** **`47.4%`** (Unified White-Box) vs. **`26.3%`** (Parametric Gaussian)
