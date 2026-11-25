@@ -28,7 +28,7 @@ Instead of relying on black-box neural networks or fragile Gaussian assumptions,
 
 A core pitfall of conventional risk models is mistaking a temporary lull in price movement for the end of a crisis. By jointly tracking **Fisher–Rao Velocity $$(v_{\text{Fisher}})$$** and **Von Neumann Entropy $$(S_{\text{vN}})$$**, the engine distinguishes between four distinct structural states:
 
-| Market Regime | Fisher–Rao Velocity SSv_{\text{Fisher}}(t)$$ | Von Neumann Entropy $$S_{\text{vN}}(t)$$ | Secondary Signals (AR, $$\mathcal{E}_{\text{curl}})$$ | Structural Interpretation |
+| Market Regime | Fisher–Rao Velocity $$v_{\text{Fisher}}(t)$$ | Von Neumann Entropy $$S_{\text{vN}}(t)$$ | Secondary Signals (AR, $$\mathcal{E}_{\text{curl}})$$ | Structural Interpretation |
 | :--- | :--- | :--- | :--- | :--- |
 | **1. Calm / Decoupled Equilibrium** | **Low** (`< 0.45`) | **High** (`> 0.80`) | Low AR; stable Gradient norm | Sectors move independently; high degrees of freedom; standard diversification holds. |
 | **2. Acute Phase Transition (Shock Onset)** | **Extreme Spike** (`> 1.50 – 2.00`) | **Sharp Drop** (`< 0.50`) | Rising AR; spiking Hodge Curl | Old correlation structure is actively breaking; rapid capital flight and cross-sector contagion. |
