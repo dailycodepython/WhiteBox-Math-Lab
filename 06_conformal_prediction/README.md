@@ -15,7 +15,7 @@ $$\hat{q}_{1-\alpha} = \text{Quantile}\left(\{s_i\}_{i=1}^n,\; \frac{\lceil (n+1
 
 guarantees marginal coverage 
 
-$$mathbb{P}\big(Y_{n+1} \in [\hat{f}(X_{n+1}) - \hat{q}_{1-\alpha},\; \hat{f}(X_{n+1}) + \hat{q}_{1-\alpha}]\big) \ge 1 - \alpha$$ for *any* underlying distribution.
+$\mathbb{P}\big(Y_{n+1} \in [\hat{f}(X_{n+1}) - \hat{q}_{1-\alpha},\; \hat{f}(X_{n+1}) + \hat{q}_{1-\alpha}]\big) \ge 1 - \alpha$ for *any* underlying distribution.
 
 ### Adaptive Conformal Inference — ACI (Gibbs & Candès, 2021)
 When exchangeability breaks during structural regime shifts, static quantiles lag behind reality. **ACI** updates the effective miscoverage level $\alpha_t$ online at every step based on whether the realized outcome breached the interval ($\text{err}_t = \mathbb{I}\{Y_t \notin \hat{C}_t(X_t)\}$):
