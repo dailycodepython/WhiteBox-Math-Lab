@@ -26,6 +26,8 @@ Every module in this lab follows a strict **white-box pipeline**:
 | **04** | **[Information Geometry](./module_04_information_geometry)** | Riemannian Statistical Manifolds, Fisher Information Metric, Bregman Divergences | Detecting regime shifts and phase transitions via geodesic distances on probability spaces. | **Completed** |
 |**05** | **[Tensor Networks (MPS / TT)](./05_tensor_networks)** | Matrix Product States, TT-SVD, TT-Cross, Von Neumann Entropy | Capturing high-order nonlinear interactions and mapping cross-sector risk transmission without the curse of dimensionality. | **Completed** |
 | **06** | **[Conformal Prediction](./06_conformal_prediction)** | Exchangeability, Non-Conformity Quantiles, Adaptive Conformal Inference (ACI) | Wrapping geometric models with distribution-free, mathematically guaranteed uncertainty bounds. | **Completed** |
+| **07** | [**Unified Regime Geometry**](./total_model_07_regime_geometry) | RMT + Hodge + Koopman + Fisher–Rao ($v_{\text{Fisher}}$) + TT-SVD ($S_{\text{vN}}$) + ACI | Integrating all 6 geometric & topological invariants into a unified market regime detector and conformal risk engine (validated on S&P 500, $N=45$). | **Completed** |
+
 
 ---
 
