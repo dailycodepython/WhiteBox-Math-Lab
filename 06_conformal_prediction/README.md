@@ -36,9 +36,9 @@ We simulate $T = 1000$ steps featuring a sudden transition at $t = 600$ from a l
 
 | Uncertainty Method | Target Coverage | Post-Shock Empirical Coverage | Behavior Under Distribution Shift |
 | :--- | :---: | :---: | :--- |
-| **Parametric Gaussian ($\pm 1.645\sigma$)** | $90.0\% | $27.3\% | Catastrophic collapse under fat tails |
-| **Static Split Conformal** | $90.0\% | $27.3\% | Frozen calibration; misses regime jump |
-| **Adaptive Conformal (ACI, JAX)** | $90.0\% | **$90.0\%** | Online $\alpha_t$ feedback restores exact guarantee |
+| **Parametric Gaussian ($\pm 1.645\sigma$)** | 90.0\% | 27.3\% | Catastrophic collapse under fat tails |
+| **Static Split Conformal** | 90.0\% | 27.3\% | Frozen calibration; misses regime jump |
+| **Adaptive Conformal (ACI, JAX)** | 90.0\% | **90.0\%** | Online $\alpha_t$ feedback restores exact guarantee |
 
 ---
 
