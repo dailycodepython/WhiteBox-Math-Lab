@@ -6,7 +6,7 @@
 
 ## 1. Analytical Foundations
 
-Point predictions from geometric, spectral, or tensor models degrade sharply when markets transition from prolonged low-volatility regimes into sudden shock states. Classical parametric intervals ($\hat{y}_t \pm z_{1-\alpha/2}\hat{\sigma}$) rely on asymptotic normality and fail catastrophically under fat-tailed jumps and non-stationarity.
+Point predictions from geometric, spectral, or tensor models degrade sharply when markets transition from prolonged low-volatility regimes into sudden shock states. Classical parametric intervals ($\hat{y}\_t \pm z\_{1-\alpha/2}\hat{\sigma}$) rely on asymptotic normality and fail catastrophically under fat-tailed jumps and non-stationarity.
 
 ### Split Conformal Prediction (Finite-Sample Guarantee)
 
@@ -32,7 +32,7 @@ Combined with locally normalized residuals $s_t = |Y_t - \hat{f}(X_t)| / \hat{\s
 
 ## 2. Synthetic Stress-Testing: Calm-to-Shock Regime Break
 
-We simulate $T = 1000$ steps featuring a sudden transition at $t = 600$ from a low-variance Gaussian regime ($\sigma = 0.25$) into a heavy-tailed Student-$t_{\nu=2.5}$ shock regime ($\sigma = 1.15$), targeting **$90.0\%$** nominal coverage ($\alpha = 0.10$):
+We simulate $T = 1000$ steps featuring a sudden transition at $t = 600$ from a low-variance Gaussian regime ($\sigma = 0.25$) into a heavy-tailed Student-$t_{\nu=2.5}$ shock regime ($\sigma = 1.15$), targeting **90.0\%** nominal coverage ($\alpha = 0.10$):
 
 | Uncertainty Method | Target Coverage | Post-Shock Empirical Coverage | Behavior Under Distribution Shift |
 | :--- | :---: | :---: | :--- |
@@ -47,7 +47,7 @@ We simulate $T = 1000$ steps featuring a sudden transition at $t = 600$ from a l
 We wrap a white-box realized volatility predictor across **45 S&P 500 equities** over a 350-trading-day out-of-sample window (2025–2026) characterized by extended low-volatility complacency followed by sharp multi-shock spikes:
 
 * **Calm Regime Compression:** During low-volatility stretches ($8\text{--}14\%$ annualized), the normalized ACI band tightens dynamically around realized volatility, avoiding overly conservative static buffers.
-* **Shock Expansion:** When abrupt market shocks drive realized 5-day volatility past $35\%$, online $\alpha_t$ feedback rapidly widens the upper uncertainty bound to absorb tail risk.
+* **Shock Expansion:** When abrupt market shocks drive realized 5-day volatility past 35\%, online $\alpha_t$ feedback rapidly widens the upper uncertainty bound to absorb tail risk.
 
 <img width="1419" height="504" alt="image" src="https://github.com/user-attachments/assets/accd6551-2e39-4a99-8ea5-73061e952a30" />
 
