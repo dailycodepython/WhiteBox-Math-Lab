@@ -46,7 +46,7 @@ We simulate $T = 1000$ steps featuring a sudden transition at $t = 600$ from a l
 
 We wrap a white-box realized volatility predictor across **45 S&P 500 equities** over a 350-trading-day out-of-sample window (2025–2026) characterized by extended low-volatility complacency followed by sharp multi-shock spikes:
 
-* **Calm Regime Compression:** During low-volatility stretches (8\text{--}14\% annualized), the normalized ACI band tightens dynamically around realized volatility, avoiding overly conservative static buffers.
+* **Calm Regime Compression:** During low-volatility stretches (8-14\% annualized), the normalized ACI band tightens dynamically around realized volatility, avoiding overly conservative static buffers.
 * **Shock Expansion:** When abrupt market shocks drive realized 5-day volatility past 35\%, online $\alpha_t$ feedback rapidly widens the upper uncertainty bound to absorb tail risk.
 
 <img width="1419" height="504" alt="image" src="https://github.com/user-attachments/assets/accd6551-2e39-4a99-8ea5-73061e952a30" />
